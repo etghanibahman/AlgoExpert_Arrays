@@ -11,7 +11,6 @@ namespace ValidateSubsequence
             var sequence = new List<int>() { 1, 2, 4 };
 
             Console.WriteLine($"Array :{ String.Join<int>(',', array)} , Sequence : {String.Join<int>(',', sequence)}");
-            
             Console.WriteLine($"Is sequence valid? {IsValidSubsequence(array,sequence)} ");
         }
 
