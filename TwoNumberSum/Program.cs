@@ -40,11 +40,9 @@ namespace TwoNumberSum
             }
 
             return new int[0];
-
-            return new int[0];
         }
 
-        //Hashset 
+        ////Hashset 
         //public static int[] TwoNumberSum(int[] array, int targetSum)
         //{
         //    HashSet<int> visited = new HashSet<int>();
@@ -54,7 +52,7 @@ namespace TwoNumberSum
         //        int diff = targetSum - array[i];
         //        if (visited.Contains(diff))
         //        {
-        //            return new int[] { array[i],diff };
+        //            return new int[] { array[i], diff };
         //        }
         //        else
         //        {
