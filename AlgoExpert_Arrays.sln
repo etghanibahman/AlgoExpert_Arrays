@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedSquaredArray", "Sorte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{853728A2-B61D-4584-B3CF-49D0C84FB0BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentWinner", "TournamentWinner\TournamentWinner.csproj", "{8CA70857-7635-4DC1-B77C-4CE19DEEE431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TournamentWinner", "TournamentWinner\TournamentWinner.csproj", "{8CA70857-7635-4DC1-B77C-4CE19DEEE431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonConstructibleChange", "NonConstructibleChange\NonConstructibleChange.csproj", "{DC67C63A-F719-4A52-A5A9-5E4B56C17D21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonConstructibleChange", "NonConstructibleChange\NonConstructibleChange.csproj", "{DC67C63A-F719-4A52-A5A9-5E4B56C17D21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{1B663FDB-EAA2-4574-8241-5AEB196DB980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeNumberSum", "ThreeNumberSum\ThreeNumberSum.csproj", "{6AC1A314-CDBF-446D-937E-B58258997144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{DC67C63A-F719-4A52-A5A9-5E4B56C17D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC67C63A-F719-4A52-A5A9-5E4B56C17D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC67C63A-F719-4A52-A5A9-5E4B56C17D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC1A314-CDBF-446D-937E-B58258997144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC1A314-CDBF-446D-937E-B58258997144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC1A314-CDBF-446D-937E-B58258997144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC1A314-CDBF-446D-937E-B58258997144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{2E506176-5DB9-41DD-A4A6-8E003D139351} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
 		{8CA70857-7635-4DC1-B77C-4CE19DEEE431} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
 		{DC67C63A-F719-4A52-A5A9-5E4B56C17D21} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
+		{6AC1A314-CDBF-446D-937E-B58258997144} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E91029C5-2596-4A84-B77B-A13FE0F5F1B8}
