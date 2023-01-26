@@ -15,7 +15,7 @@ namespace ArrayOfProducts
 
 
         #region O(N)
-        public int[] ArrayOfProducts(int[] array)
+        public static int[] ArrayOfProducts(int[] array)
         {
             var result = new int[array.Length];
 
