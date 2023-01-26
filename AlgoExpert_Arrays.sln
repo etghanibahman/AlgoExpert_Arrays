@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{1B663F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeNumberSum", "ThreeNumberSum\ThreeNumberSum.csproj", "{6AC1A314-CDBF-446D-937E-B58258997144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestDifference", "SmallestDifference\SmallestDifference.csproj", "{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestDifference", "SmallestDifference\SmallestDifference.csproj", "{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOfProducts", "ArrayOfProducts\ArrayOfProducts.csproj", "{715EF789-5F68-4B13-897D-5115229903BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{715EF789-5F68-4B13-897D-5115229903BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{715EF789-5F68-4B13-897D-5115229903BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{715EF789-5F68-4B13-897D-5115229903BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{715EF789-5F68-4B13-897D-5115229903BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{DC67C63A-F719-4A52-A5A9-5E4B56C17D21} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
 		{6AC1A314-CDBF-446D-937E-B58258997144} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
+		{715EF789-5F68-4B13-897D-5115229903BD} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E91029C5-2596-4A84-B77B-A13FE0F5F1B8}
