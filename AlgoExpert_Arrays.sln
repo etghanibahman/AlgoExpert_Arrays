@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeNumberSum", "ThreeNumb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestDifference", "SmallestDifference\SmallestDifference.csproj", "{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOfProducts", "ArrayOfProducts\ArrayOfProducts.csproj", "{715EF789-5F68-4B13-897D-5115229903BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayOfProducts", "ArrayOfProducts\ArrayOfProducts.csproj", "{715EF789-5F68-4B13-897D-5115229903BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralTraverse", "SpiralTraverse\SpiralTraverse.csproj", "{1350EBC8-1232-4656-AD63-1339464ED3F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{715EF789-5F68-4B13-897D-5115229903BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{715EF789-5F68-4B13-897D-5115229903BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{715EF789-5F68-4B13-897D-5115229903BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1350EBC8-1232-4656-AD63-1339464ED3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1350EBC8-1232-4656-AD63-1339464ED3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1350EBC8-1232-4656-AD63-1339464ED3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1350EBC8-1232-4656-AD63-1339464ED3F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{6AC1A314-CDBF-446D-937E-B58258997144} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{84272BCC-7C7E-4996-B62B-EDF7BEB5A92C} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{715EF789-5F68-4B13-897D-5115229903BD} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
+		{1350EBC8-1232-4656-AD63-1339464ED3F5} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E91029C5-2596-4A84-B77B-A13FE0F5F1B8}
