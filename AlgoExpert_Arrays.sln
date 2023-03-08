@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayOfProducts", "ArrayOfP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiralTraverse", "SpiralTraverse\SpiralTraverse.csproj", "{1350EBC8-1232-4656-AD63-1339464ED3F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPeak", "LongestPeak\LongestPeak.csproj", "{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPeak", "LongestPeak\LongestPeak.csproj", "{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDuplicateValue", "FirstDuplicateValue\FirstDuplicateValue.csproj", "{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{715EF789-5F68-4B13-897D-5115229903BD} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{1350EBC8-1232-4656-AD63-1339464ED3F5} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
+		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E91029C5-2596-4A84-B77B-A13FE0F5F1B8}
