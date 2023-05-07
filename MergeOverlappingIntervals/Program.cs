@@ -40,37 +40,67 @@ namespace MergeOverlappingIntervals
 
         }
 
+        #region Algo_Solution_____Time_O(nlogn)__Space_O(n)
         public static int[][] MergeOverlappingIntervals(int[][] intervals)
         {
-            Array.Sort(intervals, (x,y) => x[0].CompareTo(y[0])); // => important note
-            Stack<int[]> mergedIntervals = new Stack<int[]>();
-            foreach (var item in intervals)
+            Array.Sort(intervals, (x, y) => x[0].CompareTo(y[0])); // => important note
+            List<int[]> result = new List<int[]>();
+            int[] prevInterval = intervals[0];
+            result.Add(prevInterval);
+
+            for (int i = 0; i < intervals.Length ; i++)
             {
-                if (mergedIntervals.Count < 1)
+                int[] currInterval = intervals[i];
+                if (prevInterval[1] >= currInterval[0])
                 {
-                    mergedIntervals.Push(item);
-                    continue;
-                }
-                var lastItem = mergedIntervals.Peek();
-                if (lastItem[1] >= item[0])
-                {
-                    var itemToBeReplaced = mergedIntervals.Pop();
-                    itemToBeReplaced[0] = Math.Min(item[0],itemToBeReplaced[0]);
-                    itemToBeReplaced[1] = Math.Max(item[1], itemToBeReplaced[1]);
-                    mergedIntervals.Push(itemToBeReplaced);
+                    prevInterval[1] = Math.Max(currInterval[1], prevInterval[1]);
                 }
                 else
                 {
-                    mergedIntervals.Push(item);
+                    prevInterval = currInterval;
+                    result.Add(prevInterval);
                 }
             }
-            int[][] overlappedIntervals = new int[mergedIntervals.Count][];
-            for (int i = 0; i < overlappedIntervals.Length; i++)
-            {
-                overlappedIntervals[i] = mergedIntervals.Pop();
-            }
 
-            return overlappedIntervals;
+            return result.ToArray();
         }
+        #endregion
+
+
+        #region My_Solution_______Time_O(nlogn)__Space_O(n)
+        //public static int[][] MergeOverlappingIntervals(int[][] intervals)
+        //{
+        //    Array.Sort(intervals, (x, y) => x[0].CompareTo(y[0])); // => important note
+        //    Stack<int[]> mergedIntervals = new Stack<int[]>();
+        //    foreach (var item in intervals)
+        //    {
+        //        if (mergedIntervals.Count < 1)
+        //        {
+        //            mergedIntervals.Push(item);
+        //            continue;
+        //        }
+        //        var lastItem = mergedIntervals.Peek();
+        //        if (lastItem[1] >= item[0])
+        //        {
+        //            var itemToBeReplaced = mergedIntervals.Pop();
+        //            //itemToBeReplaced[0] = Math.Min(item[0], itemToBeReplaced[0]);
+        //            itemToBeReplaced[1] = Math.Max(item[1], itemToBeReplaced[1]);
+        //            mergedIntervals.Push(itemToBeReplaced);
+        //        }
+        //        else
+        //        {
+        //            mergedIntervals.Push(item);
+        //        }
+        //    }
+        //    int[][] overlappedIntervals = new int[mergedIntervals.Count][];
+        //    for (int i = 0; i < overlappedIntervals.Length; i++)
+        //    {
+        //        overlappedIntervals[i] = mergedIntervals.Pop();
+        //    }
+
+        //    return overlappedIntervals;
+        //}
+        #endregion
+
     }
 }
