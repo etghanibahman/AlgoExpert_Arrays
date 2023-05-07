@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31410.357
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateSubsequence", "ValidateSubsequence\ValidateSubsequence.csproj", "{9012C007-D9C5-4D34-A13D-394879B2D9C4}"
 EndProject
@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiralTraverse", "SpiralTra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPeak", "LongestPeak\LongestPeak.csproj", "{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDuplicateValue", "FirstDuplicateValue\FirstDuplicateValue.csproj", "{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstDuplicateValue", "FirstDuplicateValue\FirstDuplicateValue.csproj", "{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeOverlappingIntervals", "MergeOverlappingIntervals\MergeOverlappingIntervals.csproj", "{E5C875BB-5D8B-4173-A735-81FCD60E13DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C875BB-5D8B-4173-A735-81FCD60E13DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C875BB-5D8B-4173-A735-81FCD60E13DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C875BB-5D8B-4173-A735-81FCD60E13DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C875BB-5D8B-4173-A735-81FCD60E13DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{1350EBC8-1232-4656-AD63-1339464ED3F5} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{0FBC27D4-CAEA-482E-B7A7-8BB377AC09FD} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
+		{E5C875BB-5D8B-4173-A735-81FCD60E13DE} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E91029C5-2596-4A84-B77B-A13FE0F5F1B8}
