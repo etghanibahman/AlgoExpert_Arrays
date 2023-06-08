@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstDuplicateValue", "Firs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeOverlappingIntervals", "MergeOverlappingIntervals\MergeOverlappingIntervals.csproj", "{E5C875BB-5D8B-4173-A735-81FCD60E13DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransposeMatrix", "TransposeMatrix\TransposeMatrix.csproj", "{5D573C21-E32D-49FB-A94E-86DA69C31E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransposeMatrix", "TransposeMatrix\TransposeMatrix.csproj", "{5D573C21-E32D-49FB-A94E-86DA69C31E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestSeat", "BestSeat\BestSeat.csproj", "{96019DC0-9AF4-403A-8459-F524E81CD0D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{5D573C21-E32D-49FB-A94E-86DA69C31E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D573C21-E32D-49FB-A94E-86DA69C31E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D573C21-E32D-49FB-A94E-86DA69C31E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96019DC0-9AF4-403A-8459-F524E81CD0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96019DC0-9AF4-403A-8459-F524E81CD0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96019DC0-9AF4-403A-8459-F524E81CD0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96019DC0-9AF4-403A-8459-F524E81CD0D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{3E21EA9B-0461-4BAC-AB25-C9B2A8E66672} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{E5C875BB-5D8B-4173-A735-81FCD60E13DE} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 		{5D573C21-E32D-49FB-A94E-86DA69C31E50} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
+		{96019DC0-9AF4-403A-8459-F524E81CD0D3} = {1B663FDB-EAA2-4574-8241-5AEB196DB980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E91029C5-2596-4A84-B77B-A13FE0F5F1B8}
