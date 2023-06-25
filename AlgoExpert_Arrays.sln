@@ -39,6 +39,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoNumberSum", "Easy\TwoNum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateSubsequence", "Easy\ValidateSubsequence\ValidateSubsequence.csproj", "{2014840D-B700-47A5-863D-5D726592AB21}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{A469A689-A85E-4F28-9CC8-AF99C0B67A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourNumberSum", "Hard\FourNumberSum\FourNumberSum.csproj", "{50EE2FC4-FEAD-4BD7-8B63-B79F1C7FDC2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +113,10 @@ Global
 		{2014840D-B700-47A5-863D-5D726592AB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2014840D-B700-47A5-863D-5D726592AB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2014840D-B700-47A5-863D-5D726592AB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EE2FC4-FEAD-4BD7-8B63-B79F1C7FDC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EE2FC4-FEAD-4BD7-8B63-B79F1C7FDC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EE2FC4-FEAD-4BD7-8B63-B79F1C7FDC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EE2FC4-FEAD-4BD7-8B63-B79F1C7FDC2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +138,7 @@ Global
 		{46264CD5-FDF7-46B4-9D7E-BEFAAF72E727} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
 		{E00D2176-E6F5-42B7-9B7E-43F23E29A456} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
 		{2014840D-B700-47A5-863D-5D726592AB21} = {853728A2-B61D-4584-B3CF-49D0C84FB0BF}
+		{50EE2FC4-FEAD-4BD7-8B63-B79F1C7FDC2B} = {A469A689-A85E-4F28-9CC8-AF99C0B67A4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E91029C5-2596-4A84-B77B-A13FE0F5F1B8}
