@@ -27,6 +27,12 @@ namespace FourNumberSum
             }
         }
 
+        /// <summary>
+        /// Avg O(n^2)__WorstCase O(n^3) Time Complexity, Avg O(n^2) Spcace   
+        /// </summary>
+        /// <param name="array"></param>
+        /// <param name="targetSum"></param>
+        /// <returns></returns>
         public static List<int[]> FourNumberSum(int[] array, int targetSum)
         {
             // split the quadruplet into two pairs: Left and Right
